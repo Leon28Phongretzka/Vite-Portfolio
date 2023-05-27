@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import NavBar from './components/NavBar'
 import Intro from './components/Intro'
 import About from './components/About'
-import Timeline from './components/Timeline'
+import Blog from './components/Blog'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
@@ -19,7 +19,7 @@ function App() {
       </div>
       <Intro />
       <About />
-      <Timeline />
+      <Blog />
       <Contact />
       <Footer />
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRive } from "@rive-app/react-canvas";
+import { useRive } from "@rive-app/react-canvas"
 
 function Simple() {
   const { rive, RiveComponent } = useRive({
@@ -24,7 +24,7 @@ const Intro = () => {
       className={`flex md:flex-row flex-col px-6`}
     >
       <div
-        className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-1 flex-col xl:px-0 sm:px-8 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
@@ -32,8 +32,8 @@ const Intro = () => {
           </h1>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[28px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Dev, Ravist, Internship
+        <h1 className="font-poppins font-semibold text-[28px] text-white ss:text-[60px] ss:leading-[100px] leading-[75px] w-full">
+          Dev, RIVist, Internship
         </h1>
         <p className={`max-w-[470px] mt-5`}>
         Hello, I'm Tr Phong - Ehsapa, a web designer and developer, 
@@ -43,16 +43,22 @@ const Intro = () => {
         Now I am working at
         <a href="https://www.facebook.com/der.zuverlassig" target="_blank"> Die Zuverlässigkeit </a>
         and
-        <a href="https://www.facebook.com/NextBundesligaVN" target="_blank"> NextBundesliga VN </a>
+        <a href="https://www.facebook.com/NextBundesligaVN" target="_blank"> Next Bundesliga VN </a>
         as a technique support, data analyst and writer.
         </p>
+        <ul className='py-4'>
+          <li>My Gihub Name: Dimonik Villaiz</li>
+          <li><i>Real Name: Tran Phong</i></li>
+          <li><i>Age: 20</i></li>
+          <li><i>LANG: VIE, ENG, GER</i></li>
+        </ul>
       </div>
-
+      
       <div
-        className={`flex-1 flex md:my-0 my-10 relative`}
+        className={`flex-1 flex`}
       >
         <div
-          className="w-[100%] h-[88%] relative z-[5]"
+          className="w-[500px] h-[500px]"
           style={{ transform: "scale(1.2)" }}
         >
           <Simple />
