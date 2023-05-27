@@ -1,7 +1,7 @@
 import React from 'react'
 import { SiThreedotjs, SiReact } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
-import {FaNodeJs} from "react-icons/fa";
+import {FaNodeJs, FaDiscord} from "react-icons/fa";
 import {TbBrandNextjs} from "react-icons/tb";
 const About = () => {
   return (
@@ -36,6 +36,7 @@ const About = () => {
               <i className='px-6 py-6 text-[16px] text-center'><DiMongodb className='text-[68px]'/>MongoDB</i>
               <i className='px-6 py-6 text-[16px] text-center'><FaNodeJs className='text-[68px]'/>NodeJS</i>
               <i className='px-6 py-6 text-[16px] text-center'><TbBrandNextjs className='text-[68px]'/>NextJS</i>
+              <i className='px-6 py-6 text-[16px] text-center'><FaDiscord className='text-[68px]'/>DiscordJS</i>
             </li>
           </ul>
         </div>
