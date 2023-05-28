@@ -7,19 +7,20 @@ import {TbBrandNextjs, TbMathIntegral, TbMathFunctionOff} from "react-icons/tb";
 import {SiCplusplus, SiJavascript, SiPython, SiFastapi, SiFacebook} from "react-icons/si";
 const Blog = () => {
   return (
-    <section>
+    <section
+      id="blog"
+    >
       <div className='py-6 text-[28px] justify-between items-center'>
-        <p className='text-center font-semibold'>MY</p>
-        <p className='text-center italic font-semibold'>ARTWORK</p>
+        <p className='text-center italic font-semibold'>MY ARTWORK</p>
       </div>
-      <div className='grid gap-4 grid-cols-3 grid-rows-2 border-solid'>
+      <div className='px-24 grid gap-6 grid-cols-3 grid-rows-2 border-solid'>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
           <a href="https://github.com/Leon28Phongretzka/API_ExpressingJS">
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>API ExpressJS</p>
           </a>
-          <p>Description</p>
-          <p className='pb-20'>
+          <p className='text-[20px]'>Description</p>
+          <p className='pb-20 text-justify'>
             This is my API for some DJ/Producer information from Spotify
             This project hasn't design Front-End, it's only Back-End and
             I use ExpressJS to build this API.
@@ -34,8 +35,8 @@ const Blog = () => {
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>MATLAB CODE</p>
           </a>
-          <p>Description</p>
-          <p className='pb-20'>
+          <p className='text-[20px]'>Description</p>
+          <p className='pb-20 text-justify'>
             This is my MATLAB code for system of the two course            
             Radiocommunication engineering and Communication 
             system simulation. Hope it useful for anyone needs.
@@ -49,8 +50,8 @@ const Blog = () => {
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>Pro Chat</p>
           </a>
-          <p>Description</p>
-          <p className='pb-20'>
+          <p className='text-[20px]'>Description</p>
+          <p className='pb-20 text-justify'>
             The project is a chat application that allows users to register
             login and chat in the room in the real-time. The project is the
             coboration between seven members in the  
@@ -70,8 +71,8 @@ const Blog = () => {
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>Oversimplified</p>
           </a>
-          <p>Description</p>
-          <p className='pb-20'>
+          <p className='text-[20px]'>Description</p>
+          <p className='pb-20 text-justify'>
             This is the landing page of the
             <a href="https://oversimplified-landingpage-1.netlify.app/"> Oversimplified </a>
             group.
@@ -86,9 +87,9 @@ const Blog = () => {
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>DSA PTIT</p>
           </a>
-          <p>Description</p>
-          <p className='pb-20'>
-            DSA opencoding PTIT and some Codefrogs...Codeforces problems
+          <p className='text-[20px]'>Description</p>
+          <p className='pb-20 text-justify'>
+            DSA opencoding PTIT and some Codeforces problems
             I was solved from past till now.
           </p>
           <div className='grid gap-0 grid-cols-4 grid-rows-1'>
@@ -101,8 +102,8 @@ const Blog = () => {
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>My Mystery Blog</p>
           </a>
-          <p>Description</p>
-          <p className='pb-20'>
+          <p className='text-[20px]'>Description</p>
+          <p className='pb-20 text-justify'>
             Football blog for everybody.
           </p>
           <div className='grid gap-0 grid-cols-4 grid-rows-1'>

@@ -14,14 +14,13 @@ const About = () => {
           <p className='text-center'>ACHIEVEMENTS</p>
         </div>
         <div
-          className='flex md:flex-row flex-col text-[18px]'
+          className='flex md:flex-row flex-col text-[18px] px-16 max-w-[600px]'
         >
-          <p>
-          Currently I am a third-year student at the Post and Telecommunications Institute of Technology (PTIT).
-          And my current major is Electronic Telecommunications. Although my currently major, I want to try myself
-          to become a web developer. Not because of trending, I want to learn this and improve myself.
-          Now my GPA is 3.51/4.0 after 5 semesters of studying and I think I can improve it go hand in hand with my
-          development skills.
+          <p className='text-justify'>
+          <li><i>Third-year Student PTIT with GPA 3.51/4.0</i></li>
+          <li><i>5 semesters achieve scholarship from PTIT</i></li>
+          <li><i>Codeforces Pupil Rank</i></li>
+          <li><i>Work at Die Zuverlässigkeit and Huan Luyen Vien Online from 2022</i></li>
           </p>
         </div>
       </div>

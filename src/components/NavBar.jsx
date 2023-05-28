@@ -5,17 +5,15 @@ const NavBar = () => {
     const [active, setActive] = useState("Home");
     const [toggle, setToggle] = useState(false);
     return (
-        <nav className='w-full px-16 flex justify-between items-center navbar fixed text-[20px] bg-blend-normal'>
+        <nav className='bg-gray-800 py-2 fixed top-0 w-full z-10 w-full px-16 flex justify-between items-center navbar fixed text-[20px]'>
             <img src={SZP} alt="SZP" className='w-50 h-16'/>
-            <ul className = 'list-none sm:flex hidden justify-end items-center flex-1'>
-                {navLinks.map((nav, index) =>
-                    <li
-                        key={nav.id}
-                        className = 'mr-5'
-                    >
-                        <a href={`#${nav.id}`}>{nav.name}</a>
-                    </li>
-                )}
+            {/* ul nav bar from constants.js to link */}
+            <ul className="flex space-x-4">
+                {navLinks.map((link) => (
+                  <li key={link.id}>
+                    <a href={`#${link.id}`} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-[18px] font-medium">{link.name}</a>
+                  </li>
+                ))}
             </ul>
         </nav>
   )
