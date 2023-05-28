@@ -4,7 +4,7 @@ import { SiThreedotjs, SiReact } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import {FaNodeJs, FaDiscord} from "react-icons/fa";
 import {TbBrandNextjs, TbMathIntegral, TbMathFunctionOff} from "react-icons/tb";
-import {SiCplusplus, SiJavascript, SiPython, SiFastapi} from "react-icons/si";
+import {SiCplusplus, SiJavascript, SiPython, SiFastapi, SiFacebook} from "react-icons/si";
 const Blog = () => {
   return (
     <section>
@@ -94,6 +94,19 @@ const Blog = () => {
           <div className='grid gap-0 grid-cols-4 grid-rows-1'>
             <i><SiCplusplus className='text-[48px]'/>Cplusplus</i>
             <i><SiJavascript className='text-[48px]'/>JavaScript</i>
+          </div>
+        </div>
+        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
+          <a href="https://www.facebook.com/der.zuverlassig/">
+            <AiFillGithub className='text-[68px]'/>
+            <p className='text-[20px]'>My Mystery Blog</p>
+          </a>
+          <p>Description</p>
+          <p className='pb-20'>
+            Football blog for everybody.
+          </p>
+          <div className='grid gap-0 grid-cols-4 grid-rows-1'>
+            <i><SiFacebook className='text-[48px]'/>Facebook</i>
           </div>
         </div>
 
