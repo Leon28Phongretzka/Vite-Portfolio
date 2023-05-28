@@ -14,7 +14,7 @@ const About = () => {
           <p className='text-center'>ACHIEVEMENTS</p>
         </div>
         <div
-          className='flex md:flex-row flex-col px-6'
+          className='flex md:flex-row flex-col px-6 max-w-[600px] text-[18px]'
         >
           <p>
           Currently I am a third-year student at the Post and Telecommunications Institute of Technology (PTIT).
@@ -26,17 +26,17 @@ const About = () => {
         </div>
       </div>
       
-      <div className='flex flex-1'>
-        <div className='px-16 py-6 text-[28px] justify-between items-center'>
+      <div className='flex-1 flex justify-center items-center'>
+        <div className='px-8 py-4 text-[28px] justify-between items-center'>
           <p className='text-center'>TECH STACK</p>
           <ul>
-            <li className="py-6 flex flex-row">
-              <i className='px-6 py-6 text-[16px] text-center'><SiThreedotjs className='text-[68px]'/>ThreeJS</i>
-              <i className='px-6 py-6 text-[16px] text-center'><SiReact className='text-[68px]'/>React</i>
-              <i className='px-6 py-6 text-[16px] text-center'><DiMongodb className='text-[68px]'/>MongoDB</i>
-              <i className='px-6 py-6 text-[16px] text-center'><FaNodeJs className='text-[68px]'/>NodeJS</i>
-              <i className='px-6 py-6 text-[16px] text-center'><TbBrandNextjs className='text-[68px]'/>NextJS</i>
-              <i className='px-6 py-6 text-[16px] text-center'><FaDiscord className='text-[68px]'/>DiscordJS</i>
+            <li className="py-6 grid gap-4 grid-cols-3 grid-rows-2">
+              <i className='px-6 py-4 text-[16px] text-center'><SiThreedotjs className='text-[88px]'/>ThreeJS</i>
+              <i className='px-6 py-4 text-[16px] text-center'><SiReact className='text-[88px]'/>React</i>
+              <i className='px-6 py-4 text-[16px] text-center'><TbBrandNextjs className='text-[88px]'/>NextJS</i>
+              <i className='px-6 py-4 text-[16px] text-center'><FaNodeJs className='text-[88px]'/>NodeJS</i>
+              <i className='px-6 py-4 text-[16px] text-center'><DiMongodb className='text-[88px]'/>MongoDB</i>
+              <i className='px-6 py-4 text-[16px] text-center'><FaDiscord className='grid text-[88px]'/>DiscordJS</i>
             </li>
           </ul>
         </div>

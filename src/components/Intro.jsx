@@ -35,7 +35,7 @@ const Intro = () => {
         <h1 className="font-poppins font-semibold text-[28px] text-white ss:text-[60px] ss:leading-[100px] leading-[75px] w-full">
           Dev, RIVist, Internship
         </h1>
-        <p className={`max-w-[470px] mt-5`}>
+        <p className={`max-w-[600px] mt-5`}>
         Hello, I'm Tr Phong - Ehsapa, a web designer and developer, 
         I am a person who is always curious about new things. 
         Recently I am trying to challenge myself by learning web development
@@ -55,7 +55,7 @@ const Intro = () => {
       </div>
       
       <div
-        className={`flex-1 flex`}
+        className={`flex-1 flex justify-center items-center`}
       >
         <div
           className="w-[500px] h-[500px]"
