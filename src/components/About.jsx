@@ -14,7 +14,7 @@ const About = () => {
           <p className='text-center'>ACHIEVEMENTS</p>
         </div>
         <div
-          className='flex md:flex-row flex-col px-6 max-w-[600px] text-[18px]'
+          className='flex md:flex-row flex-col px-6 max-w-[660px] text-[18px]'
         >
           <p>
           Currently I am a third-year student at the Post and Telecommunications Institute of Technology (PTIT).
