@@ -14,7 +14,7 @@ const Blog = () => {
         <p className='text-center italic font-semibold'>MY ARTWORK</p>
       </div>
       <div className='px-24 grid gap-6 grid-cols-3 grid-rows-2 border-solid'>
-        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
+        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700'>
           <a href="https://github.com/Leon28Phongretzka/API_ExpressingJS">
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>API ExpressJS</p>
@@ -30,7 +30,7 @@ const Blog = () => {
             <i><DiMongodb className='text-[48px]'/>MongoDB</i>
           </div>
         </div>
-        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
+        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700'>
           <a href="https://github.com/Leon28Phongretzka/Mo_phong_truyen_thong">
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>MATLAB CODE</p>
@@ -45,7 +45,7 @@ const Blog = () => {
             <i><TbMathFunctionOff className='text-[48px]'/>MATLAB</i>
           </div>
         </div>
-        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
+        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700'>
           <a href="https://github.com/Leon28Phongretzka/Pro-Chat">
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>Pro Chat</p>
@@ -66,7 +66,7 @@ const Blog = () => {
             <i><SiFastapi className='text-[36px]'/>FastAPI</i>
           </div>
         </div>
-        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
+        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700'>
           <a href="https://github.com/Leon28Phongretzka/Landing-Page">
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>Oversimplified</p>
@@ -82,7 +82,7 @@ const Blog = () => {
             <i><SiJavascript className='text-[48px]'/>JavaScript</i>
           </div>
         </div>
-        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
+        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700'>
           <a href="https://github.com/Leon28Phongretzka/Dark_Susss_Algorithm">
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>DSA PTIT</p>
@@ -97,7 +97,7 @@ const Blog = () => {
             <i><SiJavascript className='text-[48px]'/>JavaScript</i>
           </div>
         </div>
-        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid'>
+        <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700'>
           <a href="https://www.facebook.com/der.zuverlassig/">
             <AiFillGithub className='text-[68px]'/>
             <p className='text-[20px]'>My Mystery Blog</p>

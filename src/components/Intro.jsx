@@ -37,7 +37,7 @@ const Intro = () => {
           Dev, RIVist, Internship
         </h1>
         <p className={`max-w-[600px] mt-5 px-16 text-justify`}>
-        Hello, I'm Tr Phong - Ehsapa, a web designer and developer, 
+        Hello, I'm Tr Phong - Dominik, a web designer and developer, 
         I am a person who is always curious about new things. 
         Recently I am trying to challenge myself by learning web development
         with ambition to become a specialist.
