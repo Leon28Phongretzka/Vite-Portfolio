@@ -9,21 +9,6 @@ const About = () => {
       id="about"
       className={`flex md:flex-row flex-col px-6`}
     >
-      <div className='flex-1 flex-col xl:px-0 sm:px-8 px-6'>
-        <div className='py-6 text-[28px] justify-between items-center'>
-          <p className='text-center'>ACHIEVEMENTS</p>
-        </div>
-        <div
-          className='flex md:flex-row flex-col text-[18px] px-16 max-w-[600px]'
-        >
-          <p className='text-justify'>
-          <li><i>Third-year Student PTIT with GPA 3.51/4.0</i></li>
-          <li><i>5 semesters achieve scholarship from PTIT</i></li>
-          <li><i>Codeforces Pupil Rank</i></li>
-          <li><i>Work at Die Zuverlässigkeit and Huan Luyen Vien Online from 2022</i></li>
-          </p>
-        </div>
-      </div>
       
       <div className='flex-1 flex justify-center items-center'>
         <div className='px-8 py-4 text-[28px] justify-between items-center'>
@@ -40,6 +25,24 @@ const About = () => {
           </ul>
         </div>
       </div>
+
+      <div className='flex-1 flex-col xl:px-0 sm:px-8 px-6'>
+        <div className='py-6 text-[28px] justify-between items-center'>
+          <p className='px-16 text-left'>ACHIEVEMENTS</p>
+        </div>
+        <div
+          className='flex md:flex-row flex-col text-[18px] px-16 max-w-[600px]'
+        >
+          <p className='text-justify'>
+          <li><i>Third-year Student PTIT with GPA 3.51/4.0</i></li>
+          <li><i>Achieve scholarship from PTIT 5 semesters </i></li>
+          <li><i>Top 5 GPA of Telecommunication D20 PTIT till now</i></li>
+          <li><i>Codeforces Pupil</i></li>
+          <li><i>Work at Die Zuverlässigkeit and Huan Luyen Vien Online since 2022</i></li>
+          </p>
+        </div>
+      </div>
+
     </section>
   )
 }

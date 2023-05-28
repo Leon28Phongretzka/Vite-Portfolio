@@ -1,5 +1,9 @@
 export const navLinks = [
     {
+        id: "intro",
+        name: "Intro",
+    },
+    {
         id: "about",
         name: "About",
     },
@@ -15,4 +19,8 @@ export const navLinks = [
         id: "footer",
         name: "Footer",
     },
+    // {
+    //     id: "Resume",
+        
+    // },
 ];

@@ -21,7 +21,7 @@ const Intro = () => {
   return (
     // Description in the left side
     <section
-      id="home"
+      id="intro"
       className={`flex md:flex-row flex-col px-6 py-16`}
     >
       <div
