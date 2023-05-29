@@ -28,12 +28,12 @@ const Intro = () => {
         className={`flex-1 flex-col xl:px-0 sm:px-8 px-16`}
       >
         <div className="px-8 flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100.8px] leading-[75px]">
             <span className="text-gradient">TRAN PHONG</span>{" "}
           </h1>
         </div>
 
-        <h1 className="font-poppins px-8 font-semibold text-[28px] text-white ss:text-[60px] ss:leading-[100px] leading-[75px] w-full">
+        <h1 className="font-poppins px-8 font-semibold text-[28px] ss:text-[60px] ss:leading-[100px] leading-[75px] w-full">
           Dev, RIVist, Internship
         </h1>
         <p className={`max-w-[700px] mt-5 px-8 text-justify`}>
