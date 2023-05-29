@@ -13,7 +13,7 @@ const Blog = () => {
       <div className='py-6 text-[28px] justify-between items-center'>
         <p className='text-center italic font-semibold'>MY ARTWORK</p>
       </div>
-      <div className='px-24 grid gap-6 xl:grid-cols-3 xl:grid-rows-2 md:grid-cols-2 md:grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 border-solid'>
+      <div className='px-24 grid gap-6 xl:grid-cols-3 xl:grid-rows-2 sm:grid-cols-1 md:grid-cols-2 md:grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 border-solid'>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
           <a href="https://github.com/Leon28Phongretzka/API_ExpressingJS">
             <AiFillGithub className='text-[68px]'/>
