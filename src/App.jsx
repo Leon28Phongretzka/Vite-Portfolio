@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import Intro from './components/Intro'
 import About from './components/About'
 import Blog from './components/Blog'
+import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
@@ -20,6 +21,7 @@ function App() {
       <Intro />
       <About />
       <Blog />
+      {/* <Timeline/> */}
       <Contact />
       <Footer />
     </div>

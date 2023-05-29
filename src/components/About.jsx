@@ -38,11 +38,19 @@ const About = () => {
           <li><i>Achieve scholarship from PTIT 5 semesters </i></li>
           <li><i>Top 5 GPA of Telecommunication D20 PTIT till now</i></li>
           <li><i>Codeforces Pupil</i></li>
-          <li><i>Work at Die Zuverlässigkeit and Huan Luyen Vien Online since 2022</i></li>
+          <li><i>Work at 
+            <a href="https://www.facebook.com/der.zuverlassig/"> Die Zuverlässigkeit</a>
+            : 2022-now</i></li>
+          <li><i>Work at 
+            <a href="https://twitter.com/Der_Augustus"> Der Augustus</a>
+            : 2020-now</i></li>
+          <li><i>Work at 
+            <a href="https://www.facebook.com/wearehlvonline"> Huan Luyen Vien Online</a>
+            : 2022-now</i></li>
+
           </p>
         </div>
       </div>
-
     </section>
   )
 }

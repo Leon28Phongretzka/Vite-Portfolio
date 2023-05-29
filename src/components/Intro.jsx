@@ -27,37 +27,33 @@ const Intro = () => {
       <div
         className={`flex-1 flex-col xl:px-0 sm:px-8 px-16`}
       >
-        <div className="px-16 flex flex-row justify-between items-center w-full">
+        <div className="px-8 flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             <span className="text-gradient">TRAN PHONG</span>{" "}
           </h1>
         </div>
 
-        <h1 className="font-poppins px-16 font-semibold text-[28px] text-white ss:text-[60px] ss:leading-[100px] leading-[75px] w-full">
+        <h1 className="font-poppins px-8 font-semibold text-[28px] text-white ss:text-[60px] ss:leading-[100px] leading-[75px] w-full">
           Dev, RIVist, Internship
         </h1>
-        <p className={`max-w-[600px] mt-5 px-16 text-justify`}>
+        <p className={`max-w-[700px] mt-5 px-8 text-justify`}>
         Hello, I'm Tr Phong - Dominik, a web designer and developer, 
         I am a person who is always curious about new things. 
         Recently I am trying to challenge myself by learning web development
         with ambition to become a specialist.
-        Now I am working at
-        <a href="https://www.facebook.com/der.zuverlassig" target="_blank"> Die Zuverlässigkeit </a>
-        and
-        <a href="https://www.facebook.com/NextBundesligaVN" target="_blank"> Next Bundesliga VN </a>
-        as a technique support, data analyst and writer.
+        
         </p>
-        <ul className='py-4 px-16'>
+        <ul className='py-4 px-8'>
           <li>My Gihub Name: Dimonik Villaiz</li>
           <li><i>Real Name: Tran Phong</i></li>
           <li><i>Age: 20</i></li>
           <li><i>LANG: VIE, ENG, GER</i></li>
           <li>
             Social Media:
-            <i className='grid grid-cols-12 py-4'>
-              <a href="https://www.facebook.com/cao.28.cao/"><SiFacebook className='text-[38px]'/></a>
-              <a href="https://github.com/Leon28Phongretzka/"><SiGithub className='text-[38px]'/></a>
-              <a href="https://www.linkedin.com/in/lg28szp/"><SiLinkedin className='text-[38px]'/></a>
+            <i className='flex grid-cols-6 py-4'>
+              <a className='pr-4' href="https://www.facebook.com/cao.28.cao/"><SiFacebook className='text-[38px]'/></a>
+              <a className='px-4' href="https://github.com/Leon28Phongretzka/"><SiGithub className='text-[38px]'/></a>
+              <a className='px-4' href="https://www.linkedin.com/in/lg28szp/"><SiLinkedin className='text-[38px]'/></a>
             </i>
           </li>
         </ul>
@@ -73,7 +69,6 @@ const Intro = () => {
           <Simple />
         </div>
       </div>
-
     </section>
   )
 }

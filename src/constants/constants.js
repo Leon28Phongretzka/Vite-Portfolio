@@ -11,6 +11,10 @@ export const navLinks = [
         id: "blog",
         name: "Blog",
     },
+    // {
+    //     id: "Timeline",
+    //     name: "Timeline",
+    // },
     {
         id: "contact",
         name: "Contact",
@@ -19,8 +23,4 @@ export const navLinks = [
         id: "footer",
         name: "Footer",
     },
-    // {
-    //     id: "Resume",
-        
-    // },
 ];
