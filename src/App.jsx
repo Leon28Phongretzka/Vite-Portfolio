@@ -13,11 +13,7 @@ function App() {
 
   return (
     <div>
-      <div
-        className='pb-10'
-      >
-        <NavBar/>
-      </div>
+      <div className='pb-10'><NavBar/></div>
       <Intro />
       <About />
       <Blog />
