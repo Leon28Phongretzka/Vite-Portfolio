@@ -25,7 +25,7 @@ const Intro = () => {
       className={`flex md:flex-row flex-col px-6 py-16`}
     >
       <div
-        className={`flex-1 flex-col xl:px-0 sm:px-8 px-16`}
+        className={`flex-1 flex-col xl:px-0 px-4 sm:px-8 xl:px-24`}
       >
         <div className="px-8 flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100.8px] leading-[75px]">
@@ -41,7 +41,6 @@ const Intro = () => {
         I am a person who is always curious about new things. 
         Recently I am trying to challenge myself by learning web development
         with ambition to become a specialist.
-        
         </p>
         <ul className='py-4 px-8'>
           <li>My Gihub Name: Dimonik Villaiz</li>
