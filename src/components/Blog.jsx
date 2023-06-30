@@ -15,7 +15,7 @@ const Blog = () => {
       </div>
       <div className='px-24 grid gap-6 xl:grid-cols-3 xl:grid-rows-2 sm:grid-cols-1 md:grid-cols-2 md:grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 border-solid'>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
-          <a href="https://github.com/Leon28Phongretzka/API_ExpressingJS">
+          <a href="https://github.com/Leon28Phongretzka/API_ExpressingJS" target='_blank'>
             <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>API ExpressJS</p>
           </a>
@@ -31,7 +31,7 @@ const Blog = () => {
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
-          <a href="https://github.com/Leon28Phongretzka/Mo_phong_truyen_thong">
+          <a href="https://github.com/Leon28Phongretzka/Mo_phong_truyen_thong" target='_blank'>
             <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>MATLAB CODE</p>
           </a>
@@ -46,7 +46,7 @@ const Blog = () => {
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
-          <a href="https://github.com/Leon28Phongretzka/Pro-Chat">
+          <a href="https://github.com/Leon28Phongretzka/Pro-Chat" target='_blank'>
             <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>Pro Chat</p>
           </a>
@@ -67,14 +67,14 @@ const Blog = () => {
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
-          <a href="https://github.com/Leon28Phongretzka/Landing-Page">
+          <a href="https://github.com/Leon28Phongretzka/Landing-Page" target='_blank'>
             <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>Oversimplified</p>
           </a>
           <p className='text-[20px]'>Description</p>
           <p className='pb-20 text-justify'>
             This is the landing page of the
-            <a href="https://oversimplified-landingpage-1.netlify.app/"> Oversimplified </a>
+            <a href="https://oversimplified-landingpage-1.netlify.app/" target='_blank'> Oversimplified </a>
             group.
           </p>
           <div className='grid gap-0 grid-cols-8 grid-rows-1'>
@@ -83,7 +83,7 @@ const Blog = () => {
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
-          <a href="https://github.com/Leon28Phongretzka/Dark_Susss_Algorithm">
+          <a href="https://github.com/Leon28Phongretzka/Dark_Susss_Algorithm" target='_blank'>
             <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>DSA PTIT</p>
           </a>
@@ -98,7 +98,7 @@ const Blog = () => {
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
-          <a href="https://www.facebook.com/der.zuverlassig/">
+          <a href="https://www.facebook.com/der.zuverlassig/" target='_blank'>
             <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>My Mystery Blog</p>
           </a>
