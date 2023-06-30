@@ -16,7 +16,7 @@ const Blog = () => {
       <div className='px-24 grid gap-6 xl:grid-cols-3 xl:grid-rows-2 sm:grid-cols-1 md:grid-cols-2 md:grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 border-solid'>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
           <a href="https://github.com/Leon28Phongretzka/API_ExpressingJS">
-            <AiFillGithub className='text-[68px]'/>
+            <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>API ExpressJS</p>
           </a>
           <p className='text-[20px]'>Description</p>
@@ -25,14 +25,14 @@ const Blog = () => {
             This project hasn't design Front-End, it's only Back-End and
             I use ExpressJS to build this API.
           </p>
-          <div className='grid gap-0 grid-cols-4 grid-rows-1'>
-            <i><FaNodeJs className='text-[48px]'/>NodeJS</i>
-            <i><DiMongodb className='text-[48px]'/>MongoDB</i>
+          <div className='grid gap-0 grid-cols-8 grid-rows-1'>
+            <i><FaNodeJs className='text-[28px]'/></i>
+            <i><DiMongodb className='text-[28px]'/></i>
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
           <a href="https://github.com/Leon28Phongretzka/Mo_phong_truyen_thong">
-            <AiFillGithub className='text-[68px]'/>
+            <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>MATLAB CODE</p>
           </a>
           <p className='text-[20px]'>Description</p>
@@ -41,13 +41,13 @@ const Blog = () => {
             Radiocommunication engineering and Communication 
             system simulation. Hope it useful for anyone needs.
           </p>
-          <div className='grid gap-0 grid-cols-4 grid-rows-1'>
-            <i><TbMathFunctionOff className='text-[48px]'/>MATLAB</i>
+          <div className='grid gap-0 grid-cols-8 grid-rows-1'>
+            <i><TbMathFunctionOff className='text-[28px]'/></i>
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
           <a href="https://github.com/Leon28Phongretzka/Pro-Chat">
-            <AiFillGithub className='text-[68px]'/>
+            <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>Pro Chat</p>
           </a>
           <p className='text-[20px]'>Description</p>
@@ -58,17 +58,17 @@ const Blog = () => {
             <a href="https://oversimplified-landingpage-1.netlify.app/"> Oversimplified </a>
             group.
           </p>
-          <div className='grid gap-0 grid-cols-5 grid-rows-1'>
-            <i><SiReact className='text-[36px]'/>ReactJS</i>
-            <i><FaNodeJs className='text-[36px]'/>NodeJS</i>
-            <i><DiMongodb className='text-[36px]'/>MongoDB</i>
-            <i><SiPython className='text-[36px]'/>Python</i>
-            <i><SiFastapi className='text-[36px]'/>FastAPI</i>
+          <div className='grid gap-0 grid-cols-8 grid-rows-1'>
+            <i><SiReact className='text-[28px]'/></i>
+            <i><FaNodeJs className='text-[28px]'/></i>
+            <i><DiMongodb className='text-[28px]'/></i>
+            <i><SiPython className='text-[28px]'/></i>
+            <i><SiFastapi className='text-[28px]'/></i>
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
           <a href="https://github.com/Leon28Phongretzka/Landing-Page">
-            <AiFillGithub className='text-[68px]'/>
+            <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>Oversimplified</p>
           </a>
           <p className='text-[20px]'>Description</p>
@@ -77,14 +77,14 @@ const Blog = () => {
             <a href="https://oversimplified-landingpage-1.netlify.app/"> Oversimplified </a>
             group.
           </p>
-          <div className='grid gap-0 grid-cols-5 grid-rows-1'>
-            <i><SiReact className='text-[48px]'/>ReactJS</i>
-            <i><SiJavascript className='text-[48px]'/>JavaScript</i>
+          <div className='grid gap-0 grid-cols-8 grid-rows-1'>
+            <i><SiReact className='text-[28px]'/></i>
+            <i><SiJavascript className='text-[28px]'/></i>
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
           <a href="https://github.com/Leon28Phongretzka/Dark_Susss_Algorithm">
-            <AiFillGithub className='text-[68px]'/>
+            <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>DSA PTIT</p>
           </a>
           <p className='text-[20px]'>Description</p>
@@ -92,22 +92,22 @@ const Blog = () => {
             DSA opencoding PTIT and some Codeforces problems
             I was solved from past till now.
           </p>
-          <div className='grid gap-0 grid-cols-4 grid-rows-1'>
-            <i><SiCplusplus className='text-[48px]'/>Cplusplus</i>
-            <i><SiJavascript className='text-[48px]'/>JavaScript</i>
+          <div className='grid gap-0 grid-cols-8 grid-rows-1'>
+            <i><SiCplusplus className='text-[28px]'/></i>
+            <i><SiJavascript className='text-[28px]'/></i>
           </div>
         </div>
         <div className='flex flex-col px-4 py-4 justify-center rounded-md border-2 border-solid hover:bg-gray-700 hover:text-white'>
           <a href="https://www.facebook.com/der.zuverlassig/">
-            <AiFillGithub className='text-[68px]'/>
+            <AiFillGithub className='text-[68px] sm:text-[28px]'/>
             <p className='text-[20px]'>My Mystery Blog</p>
           </a>
           <p className='text-[20px]'>Description</p>
           <p className='pb-20 text-justify'>
             Football blog for everybody.
           </p>
-          <div className='grid gap-0 grid-cols-4 grid-rows-1'>
-            <i><SiFacebook className='text-[48px]'/>Facebook</i>
+          <div className='grid gap-0 grid-cols-8 grid-rows-1'>
+            <i><SiFacebook className='text-[28px]'/></i>
           </div>
         </div>
 
